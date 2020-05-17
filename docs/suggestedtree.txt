@@ -1,0 +1,58 @@
+docs/genapplayout
+├── LICENSE
+├── Makefile
+├── README.md
+├── adapter
+│   ├── api
+│   │   ├── istio
+│   │   ├── kubernetes
+│   │   ├── logdna
+│   │   ├── openshift
+│   │   └── sysdig
+│   ├── db
+│   │   ├── mongo
+│   │   ├── mysql
+│   │   └── postgres
+│   ├── extension
+│   └── pki
+│       └── letsencrypt
+├── build
+│   ├── container
+│   │   ├── docker
+│   │   └── podman
+│   ├── environment
+│   │   ├── development
+│   │   ├── production
+│   │   ├── staging
+│   │   └── test
+│   │       ├── pipeline
+│   │       └── script
+│   └── target
+├── cmd
+├── config
+│   └── pki
+├── extension
+├── framework
+├── gql
+│   ├── entity
+│   ├── mutation
+│   ├── query
+│   └── subscription
+├── main.go
+├── net
+│   ├── grpc
+│   │   ├── router
+│   │   └── server
+│   ├── http
+│   │   ├── router
+│   │   └── server
+│   └── websocket
+│       ├── router
+│       └── server
+├── record
+└── rest
+    ├── controller
+    ├── resource
+    └── view
+
+51 directories, 4 files
